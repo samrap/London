@@ -69,6 +69,10 @@
                     "Elegant serif"
                 ],
                 "default": "Modern sans-serif"
+            },
+            "instagram_page": {
+                "type": "text",
+                "default": ""
             }
         }
     },

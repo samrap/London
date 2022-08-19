@@ -97,6 +97,7 @@ production stylesheet in assets/built/screen.css using gulp dev
 .gh-head-actions {
     font-size: 1.4rem;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .gh-head-logo {

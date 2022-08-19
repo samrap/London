@@ -47,6 +47,9 @@
             {{#if @site.facebook}}
                 <a href="{{facebook_url @site.facebook}}" title="Facebook" target="_blank" rel="noopener">Facebook</a>
             {{/if}}
+            {{#if @custom.instagram_page}}
+                <a href="{{@custom.instagram_page}}" title="Instagram" target="_blank" rel="noopener">IG</a>
+            {{/if}}
             {{#if @site.twitter}}
                 <a href="{{twitter_url @site.twitter}}" title="Twitter" target="_blank" rel="noopener">Twitter</a>
             {{/if}}
@@ -63,7 +66,7 @@
         <div class="gh-foot-inner gh-inner">
             <nav class="gh-foot-menu"></nav>
             <div class="gh-copyright">
-                {{@site.title}} © {{date format="YYYY"}} — <a href="https://ghost.org/" target="_blank" rel="noopener">Powered by Ghost</a>
+                {{@site.title}} © {{date format="YYYY"}}
             </div>
             <div class="gh-powered-by"></div>
         </div>

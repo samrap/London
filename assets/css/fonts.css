@@ -1,4 +1,14 @@
 @font-face {
+    font-family: "Diatype Variable";
+    src: url("../fonts/DiatypePlusVariable.woff2") format("woff2 supports variations"),
+        url("../fonts/DiatypePlusVariable.woff2") format("woff2-variations");
+    font-style: normal;
+    font-weight: 200 1000;
+    font-display: block;
+    unicode-range: U+0-DFFF, U+F900-FFFD;
+}
+
+@font-face {
     font-family: Mulish;
     font-style: normal;
     font-weight: 400;
