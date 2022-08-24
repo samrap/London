@@ -29,6 +29,19 @@ production stylesheet in assets/built/screen.css using gulp dev
     visibility: hidden;
 }
 
+a,
+.gh-content a,
+article a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 150ms ease-in-out;
+}
+
+.gh-content a,
+article a {
+    color: #0000FF;
+}
+
 /* Layout
 /* ---------------------------------------------------------- */
 
@@ -271,6 +284,14 @@ production stylesheet in assets/built/screen.css using gulp dev
 
 .has-serif-body .post-content-excerpt {
     font-family: var(--font-serif);
+}
+
+.kg-gallery-card {
+    margin: 4vw calc(50% - 50vw);
+    min-width: 100%;
+    position: relative;
+    transform: translateX(calc(50vw - 50%));
+    width: 75vw;
 }
 
 @media (max-width: 500px) {
