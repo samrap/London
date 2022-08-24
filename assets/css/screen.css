@@ -128,7 +128,16 @@ production stylesheet in assets/built/screen.css using gulp dev
 @media (max-width: 700px) {
     .post-card {
         flex: 1 1 100%;
+        margin-bottom: 24px;
         height: 70vw;
+    }
+
+    .post-card:nth-child(2n+1) {
+        left: -3vw;
+    }
+
+    .post-card:nth-child(2n) {
+        right: -3vw;
     }
 }
 
