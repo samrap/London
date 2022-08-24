@@ -79,7 +79,23 @@ article a {
     font-family: var(--font-serif);
 }
 
+@media (max-width: 1440px) {
+    .page-head {
+        max-width: 75%;
+    }
+}
+
+@media (max-width: 796px) {
+    .page-head-title {
+        font-size: 3.5rem;
+    }
+}
+
 @media (max-width: 500px) {
+    .page-head {
+        max-width: 80%;
+    }
+
     .page-head-title {
         font-size: 2rem;
     }
@@ -116,7 +132,7 @@ article a {
 .gh-head-logo {
     font-size: 2.1rem;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0;
 }
 
 /* Post Feed
